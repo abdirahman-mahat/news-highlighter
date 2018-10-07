@@ -13,6 +13,16 @@ abdirahman mahat
 * run the following commands:
     * chmod + x start.sh
     * ./start.sh
-    * open up browser of choice and access the application on this localhost address http://127.0.0.1:5000
+* open up browser of choice and access the application on this localhost address http://127.0.0.1:5000
 ***
-
+# Technologies Used
+1. python
+2. flask
+3. bootstrap
+4. vs code
+***
+# Known Bugs
+None for now.
+***
+# Link to Live website
+[news-highlighter](https://news-express.herokuapp.com/)
