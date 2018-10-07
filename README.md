@@ -15,6 +15,9 @@ abdirahman mahat
     * ./start.sh
 * open up browser of choice and access the application on this localhost address http://127.0.0.1:5000
 ***
+# BDD
+[specifications](https://github.com/abdirahman-mahat/news-highlighter/blob/master/specs.md)
+***
 # Technologies Used
 1. python
 2. flask
