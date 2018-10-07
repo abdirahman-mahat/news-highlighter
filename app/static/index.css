@@ -2,13 +2,9 @@ jumbotron{
     color:black;
     text-align: centre;
     margin: 50px;
+    font-size: 30px;
     }
-  .jumbotron:hover{
-    border-style: solid;
-    border-color: red;
-    opacity: 0.5;
   
-  }
 li{
     list-style: none;
 }
@@ -35,11 +31,6 @@ h1,h2{
     background-image: url('/static/images/1.jpg')
     
   }
-  
- 
-  
-  
-  
 .font {
 	font-family: 'Tajawal', sans-serif;
 
