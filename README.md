@@ -26,3 +26,7 @@ None for now.
 ***
 # Link to Live website
 [news-highlighter](https://news-express.herokuapp.com/)
+***
+# Copyright and License Information
+  This project is licensed under the terms of the **MIT** license.
+   
