@@ -8,10 +8,16 @@
     <h2>News Sources</h2>
     <ul>
     {%for newsSource in sources%}
-    <div class='col-md-3 jumbotron'>
-    <li>{{newsSource.id}}<strong>{{newsSource.name}}</strong></li>
-    <a href="/articles/{{newsSource.id}}">Articles</a>
-    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="panel" style="border-bottom: 1px solid rgb(123, 253, 48);">
+          <div class="panel-heading" style="background-color:burlywood; color: black; font-size: 18px;">{{newsSource.name}}</div>
+          <div class="panel-body" style="font-size: 16px;">
+            <p>{{newsSource.description | truncate(100)}}</p>
+            <a href="/articles/{{newsSource.id}}" class="btn" style="color: burlywood; background-color: gray;">Articles</a>
+          </div>
+        </div>
+</div>
+
     {%endfor%}
     </ul>
 {%endblock%}
